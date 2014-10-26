@@ -10,7 +10,7 @@ lista = [1,3,5,7,9]
 
 print(lista[2])
 
-#Com o operador + pode-se tamb�m concatenar uma lista:
+#Com o operador + pode-se também concatenar uma lista:
 
 lista1 = [1,3,5,7,9]
 lista2 = [11,13,15,17,19]
@@ -19,7 +19,7 @@ lista = lista1 + lista2
 
 print(lista)
 
-#Voc� poder� adicionar um elemento a lista de suas formas: concatenando o elemento a lista; ou com o m�todo append():
+#Você poderá adicionar um elemento a lista de suas formas: concatenando o elemento a lista; ou com o método append():
 
 lista = [1,3,5]
 
@@ -28,12 +28,12 @@ lista = lista + [7]
 
 print(lista)
 
-# Adicionando um elemento a lista usando o m�todo append()
+# Adicionando um elemento a lista usando o método append()
 lista.append(9)
 
 print(lista)
 
-#O m�todo append() adiciona um elemento ao final da lista. Caso voc� queira adicionar uma nova lista poder� usar o m�todo extend():
+#O método append() adiciona um elemento ao final da lista. Caso você queira adicionar uma nova lista poderá usar o método extend():
 
 lista = [1,3,5]
 
@@ -43,7 +43,7 @@ lista.extend(listax)
 
 print(lista)
 
-#O Python lhe oferece as opera��es mais comuns para se trabalhar com listas:
+#O Python lhe oferece as operações mais comuns para se trabalhar com listas:
 
 lista = [1,3,5]
 
@@ -55,13 +55,13 @@ lista.append(7)
 # Incluindo uma lista
 lista.extend([9,11,13])
 
-# Incluindo um item na posi��o i
+# Incluindo um item na posição i
 lista.insert(i, 8)
 
 # Remove um item 
 lista.remove(13)
 
-# Remove o item da posi��o i
+# Remove o item da posição i
 lista.pop(i)
 
 # Retorna o index do item 
