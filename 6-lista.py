@@ -75,7 +75,6 @@ lista.sort()
 lista.reverse()
 
 #A melhor forma de mostrar os itens de uma lista e fazendo um FOR:
-
 lista = ["verde","amarelo","azul","branco"]
 
 for item in lista:
