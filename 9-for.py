@@ -14,3 +14,9 @@ for x in range(1,10):
     s = s + x
     
 print("A soma é: %d" %s)
+
+lista = {"verde","amarelo","azul","branco"}
+print("Itens da lista:")
+
+for item in lista:
+    print(item)
