@@ -20,3 +20,11 @@ print("Itens da lista:")
 
 for item in lista:
     print(item)
+    
+orcamento = {"pera":12,"maca":6,"laranja":10}
+for chave in orcamento:
+    print("Chave: ", chave)
+    
+orcamento = {"pera":12,"maca":6,"laranja":10}
+for chave in orcamento:
+    print("O valor da chave %s é %d : " % (chave, orcamento[chave]))
