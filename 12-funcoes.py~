@@ -53,4 +53,3 @@ def func(**param):
     print(param)
     
 func(s='Carvalho',n='Sandro')
-
