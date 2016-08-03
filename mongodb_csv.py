@@ -15,5 +15,4 @@ with open('pessoas.csv', 'w') as outfile:
     for x in cursor:
         writer.writerow(x)
 
-# close file
 outfile.close()
